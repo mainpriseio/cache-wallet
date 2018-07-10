@@ -1,7 +1,7 @@
 {
-  "name": "CacheWallet",
+  "name": "MainpriseWallet",
   "version": "1.1.0",
-  "description": "Official wallet for the Cache token",
+  "description": "Official wallet for the Mainprise BAIL Token",
   "main": "main.js",
   "scripts": {
     "build": "gulp",
@@ -12,17 +12,17 @@
     "publish-all": "gulp && npm run publish-mac && npm run publish-win && npm run publish-linux",
     "dist": "electron-builder --win --x64"
   },
-  "repository": "https://github.com/cache-official/cache-wallet",
+  "repository": "https://github.com/mainpriseio/mainprise-wallet",
   "keywords": [
     "nem",
-    "devslopes",
-    "cache",
+    "mainprise",
+    "bailreform",
     "blockchain"
   ],
   "bugs": {
-    "url": "https://github.com/cache-official/cache-wallet/issues"
+    "url": "https://github.com/cmainpriseimainpriseio/mainprise-wallet/issues"
   },
-  "author": "Cache",
+  "author": "Mainprise Ltd Co",
   "license": "MIT",
   "dependencies": {
     "@uirouter/angularjs": "1.0.6",
@@ -70,8 +70,8 @@
     "gulp-util": "^3.0.8"
   },
   "build": {
-    "productName": "CacheWallet",
-    "appId": "com.devslopes.cachewallet",
+    "productName": "MainpriseWallet",
+    "appId": "io.mainprise.mainprisewallet",
     "dmg": {
       "contents": [
         {
@@ -98,7 +98,7 @@
       "target": [
         "deb"
       ],
-      "maintainer": "https://github.com/cache-official/cache-wallet"
+      "maintainer": "https://github.com/mainpriseio/mainprise-wallet"
     }
   },
   "bin": {

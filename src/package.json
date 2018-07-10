@@ -1,7 +1,7 @@
 {
-  "name": "CacheWallet",
+  "name": "MainpriseWallet",
   "version": "1.0.0",
-  "description": "Official wallet for the Cache token",
+  "description": "Official wallet for the Mainprise BAIL Token",
   "license": "MIT",
   "main":"start.html",
   "window":{

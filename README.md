@@ -1,6 +1,6 @@
 ![Mainprise Logo](resources/mainprise-logo.png)
 # Mainprise Wallet
-This is the official Mainprise BAIL TokenWallet.
+This is the official Mainprise BAIL Token Wallet.
 
 This project is an enhanced version of the NEM Nano Wallet.
 

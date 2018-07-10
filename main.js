@@ -42,9 +42,9 @@ function createWindow () {
   })
 
     var template = [{
-        label: "CacheWallet",
+        label: "MainpriseWallet",
         submenu: [
-            { label: "About CacheWallet", selector: "orderFrontStandardAboutPanel:" },
+            { label: "About MainpriseWallet", selector: "orderFrontStandardAboutPanel:" },
             { type: "separator" },
             { label: "Quit", accelerator: "Command+Q", click: function() { app.quit(); }}
         ]}, {
